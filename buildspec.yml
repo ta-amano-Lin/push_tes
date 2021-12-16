@@ -14,3 +14,7 @@ phases:
   post_build:
     commands:
       - echo "Hello, World! (phase=post_build)"
+  artifacts:
+  type: zip
+  files:
+    - target/testfile
