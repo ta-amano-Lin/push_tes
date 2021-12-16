@@ -15,3 +15,5 @@ phases:
     commands:
       - echo "Hello, World! (phase=post_build)"
       - sh ./tes.sh
+  artifacts:
+    files: imageRepository.json
