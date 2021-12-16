@@ -3,14 +3,13 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo "Hello, World! (phase=install)"
+      - echo 'Hello World (INSTALL phase)'
   pre_build:
     commands:
-      - echo "Hello, World! (phase=pre_build)"
+      - echo 'Hello World (PRE_BUILD phase)'
   build:
     commands:
-      - echo "Hello, World! (phase=build)"
-      - ls -al
+      - echo 'Hello World (BUILD phase)'
   post_build:
     commands:
-      - echo "Hello, World! (phase=post_build)"
+      - echo 'Hello World (POST_BUILD phase)'
