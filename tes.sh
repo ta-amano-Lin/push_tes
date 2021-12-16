@@ -1,3 +1,3 @@
 #!/usr/bin/bash
-
-echo HelloWorld
+echo Hello-World
+echo shell-test
