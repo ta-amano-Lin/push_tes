@@ -14,5 +14,4 @@ phases:
   post_build:
     commands:
       - echo "Hello, World! (phase=post_build)"
-      - chmod 755 test.sh
       - sh ./tes.sh
