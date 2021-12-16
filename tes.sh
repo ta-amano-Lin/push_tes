@@ -1,3 +1,3 @@
 #!/usr/bin/bash
 
-echo ÅgHello WorldÅh
+echo HelloWorld
