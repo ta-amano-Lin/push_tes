@@ -14,4 +14,4 @@ phases:
   post_build:
     commands:
       - echo "Hello, World! (phase=post_build)"
-      - ./tes.sh
+      - bash　./tes.sh
